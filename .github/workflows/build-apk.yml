@@ -14,7 +14,7 @@ jobs:
       - name: Estrai progetto
         run: |
           mkdir progetto
-          unzip -q GestionePagamenti_Android_GitHub.zip -d progetto
+          unzip -q GestionePagamenti_Android_GitHub_CORRETTO.zip
 
       - name: Configura Java
         uses: actions/setup-java@v4
