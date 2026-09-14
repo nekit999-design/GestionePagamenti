@@ -22,8 +22,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Configura Android
+            - name: Configura Android
         uses: android-actions/setup-android@v3
+        with:
+          packages: ''
 
       - name: Installa SDK Android
         run: |
